@@ -9,15 +9,38 @@ const name = 'Mario';
 const userGreeting = prompt("Fai un saluto:")
 console.log(userGreeting);
 
+const greetingMorning = ("fino alle 13 :buongiorno!")
+const greetingAfternon = ("fino alle 17:buonpomeriggio!")
+const greetingDinner = ("oltre le 17: buonasera!")
+
+
 // Dichiara la funzione qui.
-function greeting(morning, afternoon, dinner) {
+function greetingName(buongiorno, buonpomeriggio, buonasera){
+   let currentGreeting = greetingName [i];
+    console.log(currentGreeting);
+
     for (let i = 0; i < greeting.length; i++) {
-    }
-    
+        if (userGreeting === greetingMorning){
+            alert("buongiorno!");
+            return true;
+        }
+        if (userGreeting === greetingAfternon){
+            alert("buon pomeriggio!");
+            return true;
+        }
+        else if(userGreeting === greetingMorning){
+            alert("buonasera!");
+            return true;
+        }
+    } 
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
+greetingName();
+console.log(greetingName[i]);
+
+ 
 
 
 
